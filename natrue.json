@@ -1,0 +1,134 @@
+{
+  "name": "natrue",
+  "version": "0.0.1",
+  "data": {
+    "homeBanner": {
+      "bannerImages": [
+        "images/home/bannara.jpg",
+        "images/home/bannerb.jpg",
+        "images/home/bannerc.jpg"
+      ]
+    },
+    "decorate": {
+      "image-box-one": "",
+      "image-box-two": "",
+      "image-box-three": "",
+      "image-box-fore": "",
+      "image-box-fife": ""
+    },
+    "caseOne": {
+      "images": "images/home/anli%20(1).png",
+      "photo": "images/home/photo.png",
+      "title": "古朴“和风”",
+      "moreAndMore": "查看更多",
+      "content": "这是日式的古朴风格结合的现代节约的设计风潮，将鲜明的手法带入到日式的传统文化分割中，清浅的小调也是别有一番风情"
+    },
+    "caseTwo": {
+      "images": "images/home/anli%20(5).jpg",
+      "photo": "images/home/photo%20(3).jpg",
+      "title": "现代简约风格",
+      "moreAndMore": "查看更多",
+      "content": "它由曲线和非对称线条构成，如花梗、花蕾、葡萄藤、昆虫翅膀以及自然界各种优美、波状的形体图案等，体现在墙面、栏杆、窗棂和家具等装饰上。"
+    },
+    "caseThree": {
+      "images": "images/home/anli%20(4).jpg",
+      "photo": "images/home/photo%20(2).jpg",
+      "title": "田园风格",
+      "moreAndMore": "查看更多",
+      "content": " 欧式田园风格重在对自然的表现，但不同的田园有不同的自然，进而也衍生出多种家具风格如中式的、欧式的，甚至还有南亚的田园风情，各有各的特色，各有各的美丽。"
+    },
+    "caseFore": {
+      "images": "images/home/anli%20(3).jpg",
+      "photo": "images/home/photo%20(1).jpg",
+      "title": "美式乡村",
+      "moreAndMore": "查看更多",
+      "content": "这是日式的古朴风格结合的现代节约的设计风潮，将鲜明的手法带入到日式的传统文化分割中，清浅的小调也是别有一番风情"
+    },
+    "caseFife": {
+      "images": "images/home/anli%20(1).jpg",
+      "photo": "images/home/photo%20(4).jpg",
+      "title": "古典风格",
+      "moreAndMore": "查看更多",
+      "content": "是经过改良的古典主义风格。从简单到繁杂、从整体到局部，精雕细琢，镶花刻金都给人一丝不苟的印象。"
+    },
+    "caseSix": {
+      "images": "images/home/anli%20(2).jpg",
+      "photo": "images/home/photo%20(5).jpg",
+      "title": "欧式",
+      "moreAndMore": "查看更多",
+      "content": "这是日式的古朴风格结合的现代节约的设计风潮"
+    },
+    "teamOne": {
+      "bg-image": "",
+      "name": "Aaron 艾伦 希伯来",
+      "signature": "从事20年的家装经验，丰富的视角，多种风格的把握，想你想要，是艾伦设计师的设计理念"
+    },
+    "teamTwo": {
+      "bg-image": "",
+      "name": "Aaron 艾伦 希伯来",
+      "signature": "从事20年的家装经验，丰富的视角，多种风格的把握，想你想要，是艾伦设计师的设计理念"
+    },
+    "teamThree": {
+      "bg-image": "",
+      "name": "Aaron 艾伦 希伯来",
+      "signature": "从事20年的家装经验，丰富的视角，多种风格的把握，想你想要，是艾伦设计师的设计理念"
+    },
+    "diaryOne": {
+      "photo": "",
+      "title": "书房",
+      "introduce": "榻榻米 直角书桌组合 转角书桌组合 飘窗利用 书柜组合",
+      "logo": ""
+    },
+    "diaryTwo": {
+      "photo": "",
+      "title": "卧室",
+      "introduce": "整体衣柜 衣帽间 飘窗 定制床 组合装饰柜 电视柜组合 米兰范儿卧室",
+      "logo": ""
+    },
+    "diaryThree": {
+      "photo": "",
+      "title": "厨房",
+      "introduce": "一字型 L型 U型 英伦风情 新型实用 雅致厨房 提拉米苏厨房 丹麦厨房",
+      "logo": ""
+    },
+    "diaryFore": {
+      "photo": "",
+      "title": "客厅",
+      "introduce": "电视柜组合 鞋柜组合 餐柜组合 隔断柜组合 沙发茶几组合 吧台组合",
+      "logo": ""
+    },
+    "audioOne": {
+      "left-image": "",
+      "right-size": [
+        "2014年风格装修坐向标",
+        "打造48平米蜗居",
+        "新婚当然要玩?花样",
+        "打造属于你的小小世界-私人定制",
+        "什么是装修？什么是购特别？",
+        "这部仅仅是一个房子",
+        "年轻就要敢“嗨”时尚！"
+      ]
+    },
+    "audioTwo": {
+      "right-image-one": ""
+    },
+    "audioThree": {
+      "right-image-two": ""
+    },
+    "audioFore": {
+      "right-image-three": ""
+    },
+    "audio-fife": {
+      "right-image-fore": ""
+    },
+    "enterprise": {},
+    "contactUser": {
+      "tel": "020-34273471",
+      "fax": "020-34273471",
+      "add": "广州省海珠区大干围路38号海珠创业园12栋南梯7楼（510288）",
+      "service": "020-28050902",
+      "service-email": "service@toyouth.com",
+      "hr-email": "hrzp@toyouth.com"
+    }
+  }
+}

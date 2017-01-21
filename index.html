@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--引用bootstrap框架-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--引用less-->
+    <link rel="stylesheet/less" href="css/style.less">
+    <script src="bower_components/less/dist/less.min.js"></script>
+    <!--引用swiper-->
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.min.css">
+    <script src="bower_components/swiper/dist/js/swiper.min.js"></script>
+    <!--引用swiper animate -->
+    <link rel="stylesheet" href="bower_components/animate/animate.min.css">
+    <script src="bower_components/animate/swiper.animate1.0.2.min.js"></script>
+    <!--引用jquery特效-->
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+<body>
+
+<!--导航-->
+<section id="nav">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand visible-xs-block hidden-md hidden-lg hidden-sm" href="#"><img
+                    src="images/home/logo.png" alt=""></a>
+        </div>
+
+        <!--导航链接、表单和其他内容切换-->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav cl-effect-10" id="navbar-id">
+                <li><a href="#" data-hover="首页"><span>首页</span></a></li>
+                <li><a href="#" data-hover="装修套餐"><span>装修套餐</span></a></li>
+                <li><a href="#" data-hover="装修案例"><span>装修案例</span></a></li>
+                <li><a href="#" data-hover="设计团队"><span>设计团队</span></a></li>
+                <li><a href="#" data-hover="装修日记"><span>装修日记</span></a></li>
+                <li><a href="#" data-hover="新闻媒体"><span>新闻媒体</span></a></li>
+                <li><a href="#" data-hover="关于企业"><span>关于企业</span></a></li>
+                <li><a href="#" data-hover="联系我们"><span>联系我们</span></a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+</section>
+
+
+<section class="container">
+    <div class="row">
+        <section class="logo col-xs-4 visible-lg-block visible-md-block  hidden-xs">
+            <img class="pull-left" src="images/home/logo.png" alt="">
+        </section>
+        <div class="col-lg-4">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="给你想要">
+                <span class="input-group-btn">
+                <button class="btn btn-default" type="button">搜索</button>
+                </span>
+            </div><!-- /input-group -->
+        </div>
+        <section class=" col-xs-4">
+            <div class="photo pull-right visible-lg-block hidden-md hidden-xs">
+                <img src="images/home/header%20(1).png" alt="">
+                <span>020-34273421</span>
+            </div>
+        </section>
+    </div>
+
+    <!--横幅-->
+    <section id="banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="banner">
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+    </section>
+
+
+    <!--套餐-->
+    <section id="decorate" class="swiper-container ">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide package-one">
+                <div class="mulch mulch-one">
+                    <p>免费预约</p>
+                    <img src="images/home/免费预约_17.png" alt="">
+                </div>
+            </li>
+            <li class="swiper-slide package-two">
+                <div class="mulch mulch-two">
+                    <p  >免费量房</p>
+                    <img src="images/home/免费量房_17.png" alt="">
+                </div>
+            </li>
+            <li class="swiper-slide package-three">
+                <div class="mulch mulch-three">
+                    <p >极致设计</p>
+                    <img   src="images/home/极致设计_17.png" alt="">
+                </div>
+            </li>
+            <li class="swiper-slide package-fore">
+                <div class="mulch mulch-fore">
+                    <p >旧房拆迁</p>
+                    <img src="images/home/旧房迁改_23.png" alt="">
+                </div>
+            </li>
+            <li class="swiper-slide package-fife">
+                <div class="mulch mulch-fife">
+                    <p>装修贷款</p>
+                    <img src="images/home/住房贷款_23.png" alt="">
+                </div>
+            </li>
+            <li class="swiper-slide package-six">
+                <div class="mulch mulch-six">
+                    <p >免费预约</p>
+                    <img src="images/home/产品升级_23.png" alt="">
+                </div>
+            </li>
+            <li class="swiper-slide">
+
+            </li>
+        </ul>
+
+        <!--分页器-->
+        <div class="swiper-pagination"></div>
+        <!--导航栏按钮-->
+        <div id="prevAndNext">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <!--案例-->
+    <section id="case">
+        <div class="case-title">
+            <img src="images/home/title%20(1).png" alt="">
+        </div>
+
+        <div class="case-showImages col-md-12">
+            <div class="caseShowImagesOne">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--团队-->
+    <section id="team">
+
+    </section>
+
+
+    <!--媒体-->
+    <section id="audio">
+
+    </section>
+
+
+    <!--企业-->
+    <section id="enterprise">
+
+    </section>
+
+
+    <!--联系我们-->
+    <footer id="contactUser">
+
+    </footer>
+
+
+</section>
+
+<script type="text/javascript">
+
+
+</script>
+<script src="js/home.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
